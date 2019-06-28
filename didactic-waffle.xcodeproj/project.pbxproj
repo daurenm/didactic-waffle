@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		248EBF3F22C6039100FB94D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBF3E22C6039100FB94D6 /* AppDelegate.swift */; };
 		248EBF4122C6039100FB94D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBF4022C6039100FB94D6 /* ViewController.swift */; };
-		248EBF4422C6039100FB94D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248EBF4222C6039100FB94D6 /* Main.storyboard */; };
 		248EBF4622C6039200FB94D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248EBF4522C6039200FB94D6 /* Assets.xcassets */; };
 		248EBF4922C6039200FB94D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248EBF4722C6039200FB94D6 /* LaunchScreen.storyboard */; };
 		248EBF5422C6039200FB94D6 /* didactic_waffleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBF5322C6039200FB94D6 /* didactic_waffleUITests.swift */; };
@@ -29,7 +28,6 @@
 		248EBF3B22C6039100FB94D6 /* didactic-waffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "didactic-waffle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		248EBF3E22C6039100FB94D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		248EBF4022C6039100FB94D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		248EBF4322C6039100FB94D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		248EBF4522C6039200FB94D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248EBF4822C6039200FB94D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248EBF4A22C6039200FB94D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,10 +77,7 @@
 			children = (
 				248EBF3E22C6039100FB94D6 /* AppDelegate.swift */,
 				248EBF4022C6039100FB94D6 /* ViewController.swift */,
-				248EBF4222C6039100FB94D6 /* Main.storyboard */,
-				248EBF4522C6039200FB94D6 /* Assets.xcassets */,
-				248EBF4722C6039200FB94D6 /* LaunchScreen.storyboard */,
-				248EBF4A22C6039200FB94D6 /* Info.plist */,
+				248EBF5E22C6059D00FB94D6 /* Supporting files */,
 			);
 			path = "didactic-waffle";
 			sourceTree = "<group>";
@@ -94,6 +89,16 @@
 				248EBF5522C6039200FB94D6 /* Info.plist */,
 			);
 			path = "didactic-waffleUITests";
+			sourceTree = "<group>";
+		};
+		248EBF5E22C6059D00FB94D6 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				248EBF4522C6039200FB94D6 /* Assets.xcassets */,
+				248EBF4722C6039200FB94D6 /* LaunchScreen.storyboard */,
+				248EBF4A22C6039200FB94D6 /* Info.plist */,
+			);
+			name = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +184,6 @@
 			files = (
 				248EBF4922C6039200FB94D6 /* LaunchScreen.storyboard in Resources */,
 				248EBF4622C6039200FB94D6 /* Assets.xcassets in Resources */,
-				248EBF4422C6039100FB94D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +225,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		248EBF4222C6039100FB94D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				248EBF4322C6039100FB94D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		248EBF4722C6039200FB94D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
