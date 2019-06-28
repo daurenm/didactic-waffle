@@ -12,6 +12,8 @@
 		248EBF4622C6039200FB94D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248EBF4522C6039200FB94D6 /* Assets.xcassets */; };
 		248EBF4922C6039200FB94D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248EBF4722C6039200FB94D6 /* LaunchScreen.storyboard */; };
 		248EBF5422C6039200FB94D6 /* didactic_waffleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBF5322C6039200FB94D6 /* didactic_waffleUITests.swift */; };
+		526883C7185731B3113EC6D7 /* Pods_didactic_waffle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B09A73D67370F915681016E /* Pods_didactic_waffle.framework */; };
+		DF43D4333BA77259B57142B8 /* Pods_didactic_waffleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E3B4148FC31D8DB0CF7B0 /* Pods_didactic_waffleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,12 @@
 		248EBF4F22C6039200FB94D6 /* didactic-waffleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "didactic-waffleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		248EBF5322C6039200FB94D6 /* didactic_waffleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = didactic_waffleUITests.swift; sourceTree = "<group>"; };
 		248EBF5522C6039200FB94D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338655E350457CEA08370A4F /* Pods-didactic-waffleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didactic-waffleUITests.debug.xcconfig"; path = "Target Support Files/Pods-didactic-waffleUITests/Pods-didactic-waffleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B09A73D67370F915681016E /* Pods_didactic_waffle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_didactic_waffle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E686F7EC0C2D91BC999C6C /* Pods-didactic-waffle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didactic-waffle.debug.xcconfig"; path = "Target Support Files/Pods-didactic-waffle/Pods-didactic-waffle.debug.xcconfig"; sourceTree = "<group>"; };
+		ABE681CF7236B278C19EBF1F /* Pods-didactic-waffle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didactic-waffle.release.xcconfig"; path = "Target Support Files/Pods-didactic-waffle/Pods-didactic-waffle.release.xcconfig"; sourceTree = "<group>"; };
+		CB00C643911338CCBDA08661 /* Pods-didactic-waffleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didactic-waffleUITests.release.xcconfig"; path = "Target Support Files/Pods-didactic-waffleUITests/Pods-didactic-waffleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD4E3B4148FC31D8DB0CF7B0 /* Pods_didactic_waffleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_didactic_waffleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526883C7185731B3113EC6D7 /* Pods_didactic_waffle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,18 +57,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF43D4333BA77259B57142B8 /* Pods_didactic_waffleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0909E7355372C19B5B454214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B09A73D67370F915681016E /* Pods_didactic_waffle.framework */,
+				CD4E3B4148FC31D8DB0CF7B0 /* Pods_didactic_waffleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		091F8D1382AEA1393A93575E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97E686F7EC0C2D91BC999C6C /* Pods-didactic-waffle.debug.xcconfig */,
+				ABE681CF7236B278C19EBF1F /* Pods-didactic-waffle.release.xcconfig */,
+				338655E350457CEA08370A4F /* Pods-didactic-waffleUITests.debug.xcconfig */,
+				CB00C643911338CCBDA08661 /* Pods-didactic-waffleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		248EBF3222C6039100FB94D6 = {
 			isa = PBXGroup;
 			children = (
 				248EBF3D22C6039100FB94D6 /* didactic-waffle */,
 				248EBF5222C6039200FB94D6 /* didactic-waffleUITests */,
 				248EBF3C22C6039100FB94D6 /* Products */,
+				091F8D1382AEA1393A93575E /* Pods */,
+				0909E7355372C19B5B454214 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248EBF5822C6039200FB94D6 /* Build configuration list for PBXNativeTarget "didactic-waffle" */;
 			buildPhases = (
+				A9A21DC254CE00F6C3352B66 /* [CP] Check Pods Manifest.lock */,
 				248EBF3722C6039100FB94D6 /* Sources */,
 				248EBF3822C6039100FB94D6 /* Frameworks */,
 				248EBF3922C6039100FB94D6 /* Resources */,
+				B44CF4681916E3C5695A05D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248EBF5B22C6039200FB94D6 /* Build configuration list for PBXNativeTarget "didactic-waffleUITests" */;
 			buildPhases = (
+				DDCEA44D5BC4C2A171A831BB /* [CP] Check Pods Manifest.lock */,
 				248EBF4B22C6039200FB94D6 /* Sources */,
 				248EBF4C22C6039200FB94D6 /* Frameworks */,
 				248EBF4D22C6039200FB94D6 /* Resources */,
@@ -195,6 +231,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9A21DC254CE00F6C3352B66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-didactic-waffle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B44CF4681916E3C5695A05D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-didactic-waffle/Pods-didactic-waffle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-didactic-waffle/Pods-didactic-waffle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-didactic-waffle/Pods-didactic-waffle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDCEA44D5BC4C2A171A831BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-didactic-waffleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		248EBF3722C6039100FB94D6 /* Sources */ = {
@@ -354,6 +454,7 @@
 		};
 		248EBF5922C6039200FB94D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E686F7EC0C2D91BC999C6C /* Pods-didactic-waffle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,6 +473,7 @@
 		};
 		248EBF5A22C6039200FB94D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE681CF7236B278C19EBF1F /* Pods-didactic-waffle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,6 +492,7 @@
 		};
 		248EBF5C22C6039200FB94D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338655E350457CEA08370A4F /* Pods-didactic-waffleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -410,6 +513,7 @@
 		};
 		248EBF5D22C6039200FB94D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB00C643911338CCBDA08661 /* Pods-didactic-waffleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
